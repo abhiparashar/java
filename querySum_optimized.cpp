@@ -1,26 +1,41 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-void calculateSum(vector<int> &vec, vector<pair<int, int>> &queries)
+
+vector<int> calculateSum(vector<int> &vec, vector<pair<int, int>> &queries)
 {
-  vector<int> result;
-  // calculate running sum
-  for (int i = 0; i < vec.size(); i++)
+  // Calculate running sum
+  vector<int> prefix(vec.size());
+  prefix[0] = vec[0];
+  for (int i = 1; i < vec.size(); i++)
   {
-    int sum = 0;
-    sum = sum + vec[i];
-    result.push_back(sum);
+    prefix[i] = prefix[i - 1] + vec[i];
   }
-  for (int i = 0; i < result.size(); i++)
+
+  // Store results
+  vector<int> results;
+  for (const auto &query : queries)
   {
-    cout << result[i] << " ";
+    int l = query.first;
+    int r = query.second;
+    results.push_back(prefix[r] - prefix[l - 1]);
   }
-  cout << endl;
-};
+  return results;
+}
+
 int main()
 {
   vector<int> vec = {-2, 5, 1, 3, 4, 1, 7, -8, 2, 0};
   vector<pair<int, int>> queries = {{3, 8}, {2, 4}, {0, 3}, {5, 9}, {6, 6}};
-  calculateSum(vec, queries);
+
+  vector<int> results = calculateSum(vec, queries);
+
+  // Print results
+  for (int sum : results)
+  {
+    cout << sum << " ";
+  }
+  cout << endl;
+
   return 0;
 }
