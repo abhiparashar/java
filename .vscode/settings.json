@@ -3,5 +3,7 @@
     "*.json": "jsonc",
     "vector": "cpp",
     "ostream": "cpp"
-  }
+  },
+  "C_Cpp.errorSquiggles": "disabled",
+  "java.debug.settings.onBuildFailureProceed": true
 }
