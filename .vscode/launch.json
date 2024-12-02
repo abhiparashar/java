@@ -1,22 +1,29 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Linkedlistprac",
-            "request": "launch",
-            "mainClass": "Linkedlistprac",
-            "projectName": "java_696a48e8"
-        },
-        {
-            "type": "java",
-            "name": "LinkedListDemo",
-            "request": "launch",
-            "mainClass": "LinkedListDemo",
-            "projectName": "java_696a48e8"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "RemoveAdjacent",
+      "request": "launch",
+      "mainClass": "stack.RemoveAdjacent",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "Linkedlistprac",
+      "request": "launch",
+      "mainClass": "Linkedlistprac",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "LinkedListDemo",
+      "request": "launch",
+      "mainClass": "LinkedListDemo",
+      "projectName": "java_696a48e8"
+    }
+  ]
 }
