@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ValidParenthesis",
+      "request": "launch",
+      "mainClass": "stack.ValidParenthesis",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
       "name": "RemoveAdjacent",
       "request": "launch",
       "mainClass": "stack.RemoveAdjacent",
