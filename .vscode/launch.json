@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "KthPalindromeNumber",
+      "request": "launch",
+      "mainClass": "queue.KthPalindromeNumber",
+      "projectName": "java_bf2043ae"
+    },
+    {
+      "type": "java",
+      "name": "KthNumber",
+      "request": "launch",
+      "mainClass": "queue.KthNumber",
+      "projectName": "java_bf2043ae"
+    },
+    {
+      "type": "java",
       "name": "ReverseeKElems",
       "request": "launch",
       "mainClass": "queue.ReverseeKElems",
