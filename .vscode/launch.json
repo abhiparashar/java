@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FirstNonRepeating",
+      "request": "launch",
+      "mainClass": "queue.FirstNonRepeating",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
       "name": "KthPalindromeNumber",
       "request": "launch",
       "mainClass": "queue.KthPalindromeNumber",
