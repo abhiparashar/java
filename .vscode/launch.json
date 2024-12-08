@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PrintDescring",
+      "request": "launch",
+      "mainClass": "recursion.PrintDescring",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "Printdeceasing",
+      "request": "launch",
+      "mainClass": "recursion.Printdeceasing",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "PrintIncreasing",
+      "request": "launch",
+      "mainClass": "recursion.PrintIncreasing",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "recursion.Fibonacci",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "recursion.Factorial",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "Sum",
+      "request": "launch",
+      "mainClass": "recursion.Sum",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
       "name": "FindFreq",
       "request": "launch",
       "mainClass": "hashmapprac.FindFreq",
