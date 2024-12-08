@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FindFreq",
+      "request": "launch",
+      "mainClass": "hashmapprac.FindFreq",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "FrequencyCount",
+      "request": "launch",
+      "mainClass": "hashmapprac.FrequencyCount",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "FindNonRepeatingElem",
+      "request": "launch",
+      "mainClass": "hashmapprac.FindNonRepeatingElem",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
       "name": "FirstNonRepeating",
       "request": "launch",
       "mainClass": "queue.FirstNonRepeating",
