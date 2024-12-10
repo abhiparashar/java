@@ -3,19 +3,19 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class MaxDepth {
+public class MaxDepthBFS {
   int val;
-  MaxDepth left;
-  MaxDepth right;
+  MaxDepthBFS left;
+  MaxDepthBFS right;
 
-  MaxDepth() {
+  MaxDepthBFS() {
   }
 
-  MaxDepth(int val) {
+  MaxDepthBFS(int val) {
     this.val = val;
   }
 
-  MaxDepth(int val, MaxDepth left, MaxDepth right) {
+  MaxDepthBFS(int val, MaxDepthBFS left, MaxDepthBFS right) {
     this.val = val;
     this.left = left;
     this.right = right;
@@ -23,16 +23,16 @@ public class MaxDepth {
 }
 
 class Solution {
-  public int maxDepth(MaxDepth root) {
+  public int maxDepth(MaxDepthBFS root) {
     if (root == null)
       return 0;
     int count = 0;
-    Queue<MaxDepth> q = new LinkedList<>();
+    Queue<MaxDepthBFS> q = new LinkedList<>();
     q.add(root);
     while (!q.isEmpty()) {
       int size = q.size();
       while (size > 0) {
-        MaxDepth temp = q.remove();
+        MaxDepthBFS temp = q.remove();
         if (temp.left != null) {
           q.add(temp.left);
         }
