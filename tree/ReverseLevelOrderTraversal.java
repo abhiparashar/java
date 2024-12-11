@@ -26,7 +26,7 @@ public class ReverseLevelOrderTraversal {
     }
 }
 
-class Solution {
+class SolutionOfReverseLevelOrderTraversal {
     public List<List<Integer>> levelOrderBottom(ReverseLevelOrderTraversal root) {
         List<List<Integer>> ans = new ArrayList<>();
         if (root == null)

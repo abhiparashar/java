@@ -24,7 +24,7 @@ public class PreOrderTraversal {
   }
 }
 
-class Solution {
+class SolutionOfPreOrderTraversal {
   public List<Integer> preorderTraversal(PreOrderTraversal root) {
     List<Integer> arr = new ArrayList<>();
     preHelper(root, arr);

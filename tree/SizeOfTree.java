@@ -20,7 +20,7 @@ public class SizeOfTree {
   }
 }
 
-class Solution {
+class SolutionOfSizeOfTree {
   public int countNodes(SizeOfTree root) {
     if (root == null)
       return 0;

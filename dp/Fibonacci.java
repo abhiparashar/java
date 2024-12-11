@@ -2,7 +2,7 @@ package dp;
 
 import java.util.Arrays;
 
-class Solution {
+class SolutionOfFibonacci {
     public int fib(int n) {
         int[] dp = new int[n + 1];
         Arrays.fill(dp, -1);

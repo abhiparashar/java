@@ -95,7 +95,7 @@ class GfG {
         while (t > 0) {
             String s = br.readLine();
             Node root = buildTree(s);
-            Solution g = new Solution();
+            SolutionOfLeftView g = new SolutionOfLeftView();
             ArrayList<Integer> result = g.leftView(root);
             if (result.size() == 0) {
                 System.out.print("[]");
@@ -129,7 +129,7 @@ class GfG {
  * }
  * }
  */
-class Solution {
+class SolutionOfLeftView {
     // Function to return list containing elements of left view of binary tree.
     ArrayList<Integer> leftView(Node root) {
         ArrayList<Integer> ans = new ArrayList<>();

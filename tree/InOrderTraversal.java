@@ -24,7 +24,7 @@ public class InOrderTraversal {
   }
 }
 
-class Solution {
+class SolutionOfInOrderTraversal {
   public List<Integer> inorderTraversal(InOrderTraversal root) {
     List<Integer> list = new ArrayList<>();
     inorderHelper(root, list);

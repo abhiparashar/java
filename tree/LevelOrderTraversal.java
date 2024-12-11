@@ -26,7 +26,7 @@ public class LevelOrderTraversal {
     }
 }
 
-class Solution {
+class SolutionOfLevelOrderTraversal {
     public List<List<Integer>> levelOrder(LevelOrderTraversal root) {
         List<List<Integer>> ans = new ArrayList<>();
         if (root == null)

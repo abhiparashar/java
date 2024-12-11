@@ -24,7 +24,7 @@ public class PostOrderTraversal {
   }
 }
 
-class Solution {
+class SolutionOfPostOrderTraversal {
   public List<Integer> postorderTraversal(PostOrderTraversal root) {
     List<Integer> list = new ArrayList<>();
     postHelper(root, list);
