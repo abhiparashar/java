@@ -19,7 +19,7 @@ public class MaxHeight {
     }
 }
 
-class Solution {
+class SolutionOfMaxHeight {
     public int maxDepth(MaxHeight root) {
         if (root == null)
             return 0;

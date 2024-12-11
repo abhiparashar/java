@@ -20,7 +20,7 @@ class Node {
 import java.util.LinkedList;
 import java.util.Queue;
 
-class Solution {
+class SolutionOfMaxDepthOfNarray {
     public int maxDepth(Node root) {
         int levelCount = 0;
         if (root == null)

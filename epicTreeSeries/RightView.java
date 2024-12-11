@@ -23,7 +23,7 @@ public class RightView {
     }
 }
 
-class Solution {
+class SolutionOfRightView {
     public List<Integer> rightSideView(RightView root) {
         List<Integer> ans = new ArrayList<>();
         if (root == null)

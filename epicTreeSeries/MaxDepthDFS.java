@@ -19,7 +19,7 @@ public class MaxDepthDFS {
   }
 }
 
-class Solution {
+class SolutionOfMaxDepthDFS {
   public int maxDepth(MaxDepthDFS root) {
     // base case
     if (root == null)
