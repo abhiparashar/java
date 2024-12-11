@@ -22,7 +22,7 @@ public class MaxDepthBFS {
   }
 }
 
-class Solution {
+class SolutionOfMaxDepthBFS {
   public int maxDepth(MaxDepthBFS root) {
     if (root == null)
       return 0;
