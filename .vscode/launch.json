@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MergeTwoSortedArrays",
+      "request": "launch",
+      "mainClass": "sortLevelUp.MergeTwoSortedArrays",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "SelectionSort",
+      "request": "launch",
+      "mainClass": "sortLevelUp.SelectionSort",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "GoodIntegers",
+      "request": "launch",
+      "mainClass": "sorting.GoodIntegers",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "OrderOfRemoval",
+      "request": "launch",
+      "mainClass": "sorting.OrderOfRemoval",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "OrderOfRemovel",
+      "request": "launch",
+      "mainClass": "sorting.OrderOfRemovel",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
       "name": "PrintDescring",
       "request": "launch",
       "mainClass": "recursion.PrintDescring",
