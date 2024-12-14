@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MergeSort",
+      "request": "launch",
+      "mainClass": "sortLevelUp.MergeSort",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "MergeTwoSortedSubArrays",
+      "request": "launch",
+      "mainClass": "sortLevelUp.MergeTwoSortedSubArrays",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
       "name": "MergeTwoSortedArrays",
       "request": "launch",
       "mainClass": "sortLevelUp.MergeTwoSortedArrays",
