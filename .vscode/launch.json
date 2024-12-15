@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "InsertionSort",
+      "request": "launch",
+      "mainClass": "sortLevelUp.InsertionSort",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "PartialSortedArray",
+      "request": "launch",
+      "mainClass": "sortLevelUp.PartialSortedArray",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
       "name": "MergeSort",
       "request": "launch",
       "mainClass": "sortLevelUp.MergeSort",
