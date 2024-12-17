@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "QuickSort",
+      "request": "launch",
+      "mainClass": "sortLevelUp.QuickSort",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "RearrangeArray",
+      "request": "launch",
+      "mainClass": "sortLevelUp.RearrangeArray",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
       "name": "InsertionSort",
       "request": "launch",
       "mainClass": "sortLevelUp.InsertionSort",
