@@ -1,22 +1,21 @@
-
-//Definition for a binary tree node.
+// Definition for a binary tree node.
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class IsCousins {
+class TreeNode {
   int val;
   TreeNode left;
   TreeNode right;
 
-  IsCousins() {
+  TreeNode() {
   }
 
-  IsCousins(int val) {
+  TreeNode(int val) {
     this.val = val;
   }
 
-  IsCousins(int val, TreeNode left, TreeNode right) {
+  TreeNode(int val, TreeNode left, TreeNode right) {
     this.val = val;
     this.left = left;
     this.right = right;
@@ -25,8 +24,9 @@ public class IsCousins {
 
 class Solution {
   public boolean isCousins(TreeNode root, int x, int y) {
-    if (root == null)
+    if (root == null) {
       return false;
+    }
 
     Queue<TreeNode> q = new LinkedList<>();
     q.add(root);
@@ -50,24 +50,33 @@ class Solution {
         // Add children to queue and check for x and y
         if (temp.left != null) {
           q.add(temp.left);
-          if (temp.left.val == x)
+          if (temp.left.val == x) {
             foundX = true;
-          if (temp.left.val == y)
+          }
+          if (temp.left.val == y) {
             foundY = true;
+          }
         }
 
         if (temp.right != null) {
           q.add(temp.right);
-          if (temp.right.val == x)
+          if (temp.right.val == x) {
             foundX = true;
-          if (temp.right.val == y)
+          }
+          if (temp.right.val == y) {
             foundY = true;
+          }
         }
       }
 
       // If both x and y are found at the same level, they are cousins
       if (foundX && foundY) {
         return true;
+      }
+
+      // If one is found without the other, they can't be cousins
+      if (foundX || foundY) {
+        return false;
       }
     }
 
