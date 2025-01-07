@@ -1,4 +1,4 @@
-package tree.bst;
+package bst;
 
 import java.util.*;
 
