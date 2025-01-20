@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FirstAndLastOccurance",
+      "request": "launch",
+      "mainClass": "binarySearch.FirstAndLastOccurance",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
       "name": "QuickSort",
       "request": "launch",
       "mainClass": "sortLevelUp.QuickSort",
