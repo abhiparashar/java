@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FindFloor",
+      "request": "launch",
+      "mainClass": "binarySearch.FindFloor",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "FindCeil",
+      "request": "launch",
+      "mainClass": "binarySearch.FindCeil",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
+      "name": "FindFloorAndCeil",
+      "request": "launch",
+      "mainClass": "binarySearch.FindFloorAndCeil",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
       "name": "FirstAndLastOccurance",
       "request": "launch",
       "mainClass": "binarySearch.FirstAndLastOccurance",
