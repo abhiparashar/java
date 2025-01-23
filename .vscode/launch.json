@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FindUniqueElem",
+      "request": "launch",
+      "mainClass": "binarySearch.FindUniqueElem",
+      "projectName": "java_696a48e8"
+    },
+    {
+      "type": "java",
       "name": "FindFloor",
       "request": "launch",
       "mainClass": "binarySearch.FindFloor",
